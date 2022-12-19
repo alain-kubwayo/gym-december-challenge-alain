@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Wrapper from '../components/ui/Wrapper'
 
 export default function Home() {
   return (
@@ -9,9 +9,11 @@ export default function Home() {
         <meta name="keywords" content="university" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Wrapper>
+        <h1 className="text-3xl font-bold underline">
+          Hello world!
+        </h1>
+      </Wrapper>
     </div>
   )
 }

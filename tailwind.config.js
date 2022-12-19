@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       fontFamily: {
         body: 'Roboto'
+      },
+      colors: {
+        primary: '#082140',
       }
     },
   },
