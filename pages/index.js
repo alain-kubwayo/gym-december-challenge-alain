@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div>
+    <div className="font-body">
       <Head>
         <title>The Entrepreneurial University - TUM</title>
         <meta name="keywords" content="university" />
