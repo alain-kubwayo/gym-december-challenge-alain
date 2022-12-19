@@ -11,7 +11,7 @@ const Navbar = () => {
                         <Image src="/gallery.svg" width={33} height={33} alt="Gallery Icon" />
                         <div className="flex py-5 gap-x-2">
                             <Image src="/tum.svg" width={80} height={42} alt="Gallery Icon" className="pl-1.5" />
-                            <p className="text-xs">
+                            <p className="hidden text-xs xl:block">
                                 Technical<br />
                                 University<br />
                                 of Munich
@@ -20,7 +20,7 @@ const Navbar = () => {
                         
                     </div>  
                     <div className="flex items-center">
-                        <ul className="flex items-center gap-x-6  mr-[54px] font-bold">
+                        <ul className="hidden xl:flex items-center gap-x-6  mr-[54px] font-bold">
                             <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary-200 hover:border-white solid">
                                 <Link href="#">news and events</Link>
                             </li>
@@ -50,6 +50,9 @@ const Navbar = () => {
                             </div>
                             <div className="px-5">
                                 <Image src="/search.svg" width={24} height={24} alt="Search Icon" />
+                            </div>
+                            <div className="block xl:hidden">
+                            <Image src="/hamburger.svg" width={24} height={24} alt="Search Icon" />
                             </div>
                         </div>
                     </div>
