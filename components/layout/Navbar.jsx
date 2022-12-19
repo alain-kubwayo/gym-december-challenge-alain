@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <div className="bg-primary">
+        <div className="fixed z-50 w-full bg-primary-200">
             <Wrapper>
                 <nav className="flex items-center justify-between text-white">
                     <div className="flex gap-x-2">
@@ -21,25 +21,25 @@ const Navbar = () => {
                     </div>  
                     <div className="flex items-center">
                         <ul className="flex items-center gap-x-6  mr-[54px] font-bold">
-                            <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary hover:border-white solid">
+                            <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary-200 hover:border-white solid">
                                 <Link href="#">news and events</Link>
                             </li>
-                            <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary hover:border-white solid">
+                            <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary-200 hover:border-white solid">
                                 <Link href="#">studies</Link>
                             </li>
-                            <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary hover:border-white solid">
+                            <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary-200 hover:border-white solid">
                                 <Link href="#">lifelong learning</Link>
                             </li>
-                            <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary hover:border-white solid">
+                            <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary-200 hover:border-white solid">
                                 <Link href="#">research</Link>
                             </li>
-                            <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary hover:border-white solid">
+                            <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary-200 hover:border-white solid">
                                 <Link href="#">innovation</Link>
                             </li>
-                            <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary hover:border-white solid">
+                            <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary-200 hover:border-white solid">
                                 <Link href="#">community</Link>
                             </li>
-                            <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary hover:border-white solid">
+                            <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary-200 hover:border-white solid">
                                 <Link href="#">about tum</Link>
                             </li>
                         </ul>
