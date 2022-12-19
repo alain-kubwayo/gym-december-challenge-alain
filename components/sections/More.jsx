@@ -26,7 +26,7 @@ const More = () => {
                 </Link>
             </div>
             <div className="grid grid-cols-3 gap-x-[9rem] gap-y-[2.5rem]">
-                {moreDetails.map(detail => <MoreCard detail={detail} />)}
+                {moreDetails.map((detail, id) => <MoreCard detail={detail} key={id} />)}
             </div>
         </Wrapper>
      );
