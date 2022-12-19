@@ -9,6 +9,7 @@ import News from '../components/sections/News'
 import President from '../components/sections/President'
 import Schools from '../components/sections/Schools'
 import Statistics from '../components/sections/Statistics'
+import Footer from '../components/sections/Footer'
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <Alumni />
       <More />
       <Giving />
+      <Footer />
     </div>
   )
 }
