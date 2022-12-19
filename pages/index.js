@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Alumni from '../components/sections/Alumni'
 import Degree from '../components/sections/Degree'
 import Discover from '../components/sections/Discover'
+import Giving from '../components/sections/Giving'
 import Hero from '../components/sections/Hero'
 import More from '../components/sections/More'
 import News from '../components/sections/News'
@@ -26,6 +27,7 @@ export default function Home() {
       <Schools />
       <Alumni />
       <More />
+      <Giving />
     </div>
   )
 }
