@@ -22,7 +22,7 @@ const TopFooter = () => {
             </div>
 
             <div>
-                <h6 className="font-bold">Let's shape the future together.</h6>
+                <h6 className="font-bold">Let&apos;s shape the future together.</h6>
                 <Link href="#" className="flex mt-3 gap-x-3">
                     <span className="hover:underline">Support us</span>
                     <Image src="/pen.svg" height={20} width={20} alt="Icon" />
@@ -34,7 +34,7 @@ const TopFooter = () => {
                 <ul className="mt-3 space-y-4">
                     <li className="flex gap-x-3">
                         <Image height={20} width={20} src="/arrow.svg" alt="Icon" />
-                        <Link href="#">Germany's strongest university in business sciences</Link>
+                        <Link href="#">Germany&apos;s strongest university in business sciences</Link>
                     </li>
                     <li className="flex gap-x-3">
                         <Image height={20} width={20} src="/arrow.svg" alt="Icon" />
