@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const MiddleFooter = () => {
     return ( 
-        <div className="py-8 space-y-4">
-            <div className="flex">
-                <h6>Schools and Departments:</h6>
-                <ul className="flex flex-wrap w-full gap-x-3">
+        <div className="grid py-8 gap-y-4">
+            <div className="flex flex-col md:flex-row">
+                <h6 className="mb-4 md:mb-0">Schools and Departments:</h6>
+                <ul className="flex flex-wrap w-full gap-y-[0.5rem] md:gap-y-0 gap-x-[1.25rem] md:gap-x-3">
                     <li className="flex hover:underline">
                         <span>Computation, Information and Technology</span>
                         <Image src="/pen.svg" width={14} height={14} alt="Edit" className="ml-1" />
@@ -40,9 +40,9 @@ const MiddleFooter = () => {
                     </li>
                 </ul>
             </div>
-            <div className="flex">
-                <h6 className="pr-20">Quicklinks:</h6>
-                <ul className="flex flex-wrap w-full gap-x-3">
+            <div className="flex flex-col md:flex-row">
+                <h6 className="pr-20 mb-4 md:mb-0">Quicklinks:</h6>
+                <ul className="flex flex-wrap w-full gap-y-[0.5rem] gap-x-[1.25rem] md:gap-y-0 md:gap-x-3">
                     <li className="flex hover:underline">
                         <span>Persons (TUMonline) </span>
                         <Image src="/pen.svg" width={14} height={14} alt="Edit" className="ml-1" />

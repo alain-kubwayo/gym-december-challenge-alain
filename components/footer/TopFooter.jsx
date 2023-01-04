@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const TopFooter = () => {
     return ( 
-        <div className="grid grid-cols-3 pt-[56px] pb-[60px]  border-b border-secondary-300">
+        <div className="grid grid-cols-1 md:grid-cols-3 pt-[56px] pb-[60px]  border-b border-secondary-300">
             <div className="flex">
                 <div className="pt-[5px] pr-[16px]">
                     <Image width={54} height={25} src="/tum-logo.svg" alt="Logo" className="h-fit" />

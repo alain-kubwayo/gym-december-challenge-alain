@@ -5,8 +5,8 @@ const BotttomFooter = () => {
     return ( 
         <div className="py-6 bg-primary-200">
             <Wrapper>
-            <div className="flex justify-between">
-                <ul className="flex gap-[1.25rem]">
+            <div className="flex flex-col justify-between md:flex-row">
+                <ul className="flex flex-wrap gap-y-[0.5rem] gap-x-[1.25rem] md:order-1 order-2">
                     <li className="hover:underline">Jobs</li>
                     <li className="hover:underline">Feedback</li>
                     <li className="hover:underline">Press and Media</li>
@@ -14,7 +14,7 @@ const BotttomFooter = () => {
                     <li className="hover:underline">Privacy Policy</li>
                     <li className="hover:underline">Legal Notice</li>
                 </ul>
-                <ul className="flex gap-[1.5rem]">
+                <ul className="flex justify-between pr-20 md:pr-0 md:justify-start md:gap-[1.5rem] md:order-2 order-1">
                     <Image width={20} height={20} src="/facebook.svg" alt="Social" />
                     <Image width={20} height={20} src="/instagram.svg" alt="Social" />
                     <Image width={20} height={20} src="/twitter.svg" alt="Social" />
@@ -23,9 +23,9 @@ const BotttomFooter = () => {
                     <Image width={20} height={20} src="/rss.svg" alt="Social" />
                 </ul>
             </div>
-            <div className="flex items-center pt-6 space-x-3">
+            <div className="flex items-start pt-6 space-x-3 md:items-center">
                 <div className="pr-3">
-                    <Image src="/partners-of-excellence.svg" width={32} height={60} alt="Logo"  />
+                    <img src="/partners-of-excellence.svg" className="w-[128px] md:w-[32px] md:h-[60px]" alt="Logo"  />
                 </div>
                 <div className="hover:underline">
                     <p>TUM Partners of Excellence</p>
