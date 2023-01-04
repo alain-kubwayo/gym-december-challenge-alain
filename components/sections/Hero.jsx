@@ -11,7 +11,7 @@ const Hero = () => {
                 <Wrapper>
                     <div className="md:absolute order-1 md:order-none md:top-[20%] md:z-40 text-white md:grid md:grid-cols-2">
                         <div className="space-y-6">
-                            <h1 className="text-5xl font-bold">TUM. The Entrepreneurial University</h1>
+                            <h1 className="text-[36px] md:text-5xl font-bold">TUM. The Entrepreneurial University</h1>
                             <p className="text-xl">Innovation through talent, excellence and responsibility</p>
                         </div>
                         <div></div>

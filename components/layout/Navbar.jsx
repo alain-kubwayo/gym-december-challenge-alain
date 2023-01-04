@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className="fixed z-50 w-full bg-primary-200">
             <Wrapper>
-                <nav className="flex items-center justify-between text-white gap-x-10 md:gap-x-0">
+                <nav className="flex items-center justify-between text-white md:gap-x-0">
                     <div className="flex items-center gap-x-2 pr-[20px]">
                         <img src="/gallery.svg" className="w-[33px] h-[33px] pr-1" alt="Gallery Icon"/>
                         <div className="flex py-6 gap-x-2">
@@ -47,10 +47,10 @@ const Navbar = () => {
                                 <Link href="#" className="pl-3 border-l-4 border-white md:border-l md:pl-2 solid">EN</Link>
                             </div>
                             <div className="p-1.5 md:px-5">
-                                <img src="/search.svg" className="w-[36px] h-[36px] md:w-[24px] md:h-[24px]" alt="Search Icon" />
+                                <img src="/search.svg" className="w-[24px] h-[24px]" alt="Search Icon" />
                             </div>
                             <div className="block p-1.5 md:p-0 xl:hidden">
-                                <img src="/hamburger.svg" className="w-[36px] h-[36px] md:w-[24px] md:h-[24px]" alt="Search Icon" />
+                                <img src="/hamburger.svg" className="w-[24px] h-[24px]" alt="Search Icon" />
                             </div>
                         </div>
                     </div>
