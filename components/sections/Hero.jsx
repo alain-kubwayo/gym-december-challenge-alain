@@ -7,9 +7,6 @@ const Hero = () => {
             <video className="hidden md:block md:top-0 md:object-cover md:w-full md:h-full md:absolute" autoplay="autoplay" muted loop>
                 <source src="/hero-video.mp4" type="video/mp4"/>
             </video>
-            <video className="md:hidden" autoplay="autoplay" muted loop>
-                <source src="/hero-video.mp4" type="video/mp4"/>
-            </video>
             <div className="bg-[#163F6F] md:bg-transparent py-16">
                 <Wrapper>
                     <div className="md:absolute order-1 md:order-none md:top-[20%] md:z-40 text-white md:grid md:grid-cols-2">
@@ -21,6 +18,9 @@ const Hero = () => {
                     </div>
                 </Wrapper>
             </div>
+            <video className="md:hidden" autoplay="autoplay" muted loop>
+                <source src="/hero-video.mp4" type="video/mp4"/>
+            </video>
         </div>
         </>
      );
