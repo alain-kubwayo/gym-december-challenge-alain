@@ -14,7 +14,7 @@ const BotttomFooter = () => {
                     <li className="hover:underline">Privacy Policy</li>
                     <li className="hover:underline">Legal Notice</li>
                 </ul>
-                <ul className="flex justify-between pr-20 md:pr-0 md:justify-start md:gap-[1.5rem] md:order-2 order-1">
+                <ul className="pb-8 md:pb-0 flex justify-between pr-20 md:pr-0 md:justify-start md:gap-[1.5rem] md:order-2 order-1">
                     <Image width={20} height={20} src="/facebook.svg" alt="Social" />
                     <Image width={20} height={20} src="/instagram.svg" alt="Social" />
                     <Image width={20} height={20} src="/twitter.svg" alt="Social" />

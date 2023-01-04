@@ -5,7 +5,7 @@ import BottomFooter from "../../components/footer/BottomFooter";
 
 const Footer = () => {
     return ( 
-        <footer className="text-base text-white bg-primary-400">
+        <footer className="mt-12 text-base text-white bg-primary-400">
             <Wrapper>
                 <TopFooter />
                 <MiddleFooter />
