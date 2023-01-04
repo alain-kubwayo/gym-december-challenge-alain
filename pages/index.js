@@ -19,8 +19,7 @@ export default function Home() {
         <meta name="keywords" content="university" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <Hero />
-       */}
+      <Hero />
       <News />
       <Discover />
       <Degree />
