@@ -8,14 +8,14 @@ const Navbar = () => {
                 <nav className="flex items-center justify-between text-white md:gap-x-0">
                     <div className="flex items-center gap-x-2 pr-[20px]">
                         <img src="/gallery.svg" className="w-[33px] h-[33px] pr-1" alt="Gallery Icon"/>
-                        <div className="flex py-6 gap-x-2">
+                        <Link href="/" className="flex py-6 gap-x-2">
                             <img src="/tum.svg" alt="Gallery Icon" className="w-[80px] h-[42px]" />
                             <p className="hidden text-xs xl:block">
                                 Technical<br />
                                 University<br />
                                 of Munich
                             </p>
-                        </div>
+                        </Link>
                     </div>  
                     <div className="flex items-center">
                         <ul className="hidden xl:flex items-center gap-x-6  mr-[54px] font-bold">
