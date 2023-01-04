@@ -23,8 +23,8 @@ export default function Home() {
       <News />
       <Discover />
       <Degree />
-      <President />
-      <Statistics /> */}
+      <President /> */}
+      <Statistics />
       <Schools />
       <Alumni />
       <More /> 
