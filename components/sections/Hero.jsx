@@ -3,7 +3,7 @@ import Wrapper from "../ui/Wrapper";
 const Hero = () => {
     return ( 
         <>
-        <div className="flex mb-8 mt:mb-0 pt-36 md:pt-0 flex-col md:block md:h-[48.75rem] relative w-full">
+        <div className="flex mb-8 mt:mb-0 pt-20 md:pt-0 flex-col md:block md:h-[48.75rem] relative w-full">
             <video className="hidden md:block md:top-0 md:object-cover md:w-full md:h-full md:absolute" autoplay="autoplay" muted loop>
                 <source src="/hero-video.mp4" type="video/mp4"/>
             </video>
