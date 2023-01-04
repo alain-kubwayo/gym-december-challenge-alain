@@ -20,9 +20,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <Hero />
-      <News />
+      <News /> */}
       <Discover />
-      <Degree /> */}
+      <Degree />
       <President />
       <Statistics />
       <Schools />

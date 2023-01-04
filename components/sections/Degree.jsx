@@ -7,7 +7,7 @@ const Degree = () => {
         <div className="mt-12">
             <Wrapper>
             <select className="w-full px-0 py-5 pl-5 text-2xl font-bold border-b outline-none border-primary-200 text-primary-200/50 bg-secondary-100">
-                <option value="" className="w-full text-xl font-bold">Select degree program or enter keyword</option>
+                <option value="" className="text-xl fontld md:w-full">Select degree program or enter keyword</option>
                 <option value="" className="w-full bg-blue-700">Chemical Biotechnology - Bachelor of Science (B.Sc.)</option>
                 <option value="" className="w-full bg-blue-700">Chemical Biotechnology - Master of Science (M.Sc.)</option>
                 <option value="" className="w-full bg-blue-700">Chemical Biotechnology - Bachelor of Science (B.Sc.)</option>
