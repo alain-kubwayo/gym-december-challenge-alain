@@ -20,25 +20,25 @@ const Navbar = () => {
                     <div className="flex items-center">
                         <ul className="hidden xl:flex items-center gap-x-6  mr-[54px] font-bold">
                             <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary-200 hover:border-white solid">
-                                <Link href="#">news and events</Link>
+                                <Link href="/news">news and events</Link>
                             </li>
                             <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary-200 hover:border-white solid">
-                                <Link href="#">studies</Link>
+                                <Link href="/studies">studies</Link>
                             </li>
                             <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary-200 hover:border-white solid">
-                                <Link href="#">lifelong learning</Link>
+                                <Link href="/learning">lifelong learning</Link>
                             </li>
                             <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary-200 hover:border-white solid">
-                                <Link href="#">research</Link>
+                                <Link href="/research">research</Link>
                             </li>
                             <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary-200 hover:border-white solid">
-                                <Link href="#">innovation</Link>
+                                <Link href="/innovation">innovation</Link>
                             </li>
                             <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary-200 hover:border-white solid">
-                                <Link href="#">community</Link>
+                                <Link href="/community">community</Link>
                             </li>
                             <li className="pt-6 pb-8 text-sm uppercase border-b-4 border-primary-200 hover:border-white solid">
-                                <Link href="#">about tum</Link>
+                                <Link href="/about">about tum</Link>
                             </li>
                         </ul>
                         <div className="flex -mt-[11px] gap-x-2 items-center">

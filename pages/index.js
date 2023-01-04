@@ -29,7 +29,6 @@ export default function Home() {
       <Alumni />
       <More /> 
       <Giving />
-      <Footer />
     </div>
   )
 }
