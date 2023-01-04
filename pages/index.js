@@ -24,8 +24,8 @@ export default function Home() {
       <Discover />
       <Degree />
       <President />
-      <Statistics />
-      <Schools /> */}
+      <Statistics /> */}
+      <Schools />
       <Alumni />
       <More /> 
       <Giving />
