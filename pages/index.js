@@ -22,8 +22,8 @@ export default function Home() {
       {/* <Hero />
       <News />
       <Discover />
-      <Degree />
-      <President /> */}
+      <Degree /> */}
+      <President />
       <Statistics />
       <Schools />
       <Alumni />
